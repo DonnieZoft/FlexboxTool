@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -8,9 +9,31 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script></script>
 </head>
+
 <body>
     <div class="separator"></div>
     <h1>Flexbox Visual Tool</h1>
     <div class="separator"></div>
+
+    <div>
+        <div>
+            <label>
+                Anzahl Boxen:
+                <input type="number" id="boxCount" value="3" min="1" max="10">
+            </label>
+            <label>
+                flex-direction:
+                <select id="direction">
+                    <option value="">(nicht gesetzt)</option>
+                    <option value="row">row</option>
+                    <option value="row-reverse">row-reverse</option>
+                    <option value="column">column</option>
+                    <option value="column-reverse">column-reverse</option>
+                </select>
+            </label>
+        </div>
+    </div>
+    
 </body>
+
 </html>
