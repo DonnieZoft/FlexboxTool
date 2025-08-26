@@ -31,3 +31,19 @@ h1 {
     width: 100%;
     max-width: 400px;
 }
+
+.controls label {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+}
+
+.controls input,
+.controls select {
+    padding: 0.6rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    background: #444;
+    color: #fff;
+}
